@@ -163,3 +163,84 @@ Srishti*/ ////(Multiline comment)/////
 
 // }
 // console.log(person.fullname());
+
+//////////////////Array/////////////////
+
+// const car = ["Car2", "Car3", "Car1"] ; ///array declaration form///
+// // console.log(car[1]);
+// console.log(car.length);
+// console.log(car.sort());
+// car.push("Goutam");
+// car.push("Srishti");
+// console.log(car.length);
+// console.log(car);
+// car.pop("Car3");
+// console.log(car);
+
+// eslint-disable-next-line no-array-constructor
+// const cars = new Array("Car1", "Car2", "Car3");
+// console.log(cars[2]);
+
+/////ARRAY ITERATION/////
+// const car= [5,4,3];
+// car.forEach((item,index)=>{console.log(item,index)})
+
+// const cars= [5,4,3];
+// cars.map((item,index)=>{    //////its a function for which return is required////
+//         console.log(item,index)
+// return item;
+// })
+
+// const cars1= [5,4,3];
+// console.log(cars1.indexOf(4));
+// const filterdvalue = cars1.filter((item,index)=>{    //////its a function for which return is required////
+//         console.log(item,index)
+// return item>4;
+// })
+// console.log(filterdvalue);
+
+//................................................................//
+//////////////LOOPING///////////////
+//ifelsecondition//
+// if (20>30) {
+//         console.log(true)
+// } else {
+//         console.log(false)     
+// }
+
+////////////Nested ifelse//////////
+
+// const time = new Date().getHours();
+// console.log(time);
+// let greeting;
+// if (time < 10) {
+//         greeting = "Good morning";
+//       } else if (time < 20) {
+//         greeting = "Good day";
+//       } else {
+//         greeting = "Good evening";
+//       }
+// console.log(greeting);
+
+///////FORLOOP//////////
+
+// for (let i = 0; i <= 5; i++) {
+//         console.log("The number is " + i + "\n");
+//       }
+
+// for (let i = 10; i >= 5; i--) {
+//         console.log("The number is " + i + "\n");
+//       }
+
+/////////FOR IN///////////
+// const person = {fname:"John", lname:"Doe", age:25};
+// for (let x in person) {
+// console.log(person[x] );
+// }
+
+// ////////FOR OF///////////- Preffered for Arrays
+
+// const cars = ["BMW", "Volvo", "Mini"];
+// for (let x of cars) {
+//   console.log(x);
+// }
